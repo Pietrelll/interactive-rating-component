@@ -76,14 +76,28 @@ div {
   background-color: hsl(25, 97%, 53%);
 }
 
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
 label {
   display: inline-block;
   height: 3rem;
   width: 3rem;
 }
 
+
 label:hover {
+  cursor: pointer;
+}
+
+label:hover span:first-of-type {
   color: white;
+}
+
+span {
+  pointer-events: none;
 }
 
 .submit-btn {
@@ -105,11 +119,6 @@ label:hover {
   color: hsl(25, 97%, 53%);
 }
 
-form {
-  display: flex;
-  justify-content: space-between;
-}
-
 input[type="radio"] {
   -webkit-appearance: none;
   appearance: none;
@@ -124,7 +133,6 @@ input[type="radio"]:checked {
 input[type="radio"]:checked~span:first-of-type {
   color: white;
 }
-
 
 label span:first-of-type {
   position: relative;
