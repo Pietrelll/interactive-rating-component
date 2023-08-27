@@ -6,7 +6,7 @@ const userRatingSpan = document.querySelector('.user-rating');
 
 function submitForm() {
     ratingCard.style.display = 'none';
-    thankYouCard.style.display = 'block';
+    thankYouCard.style.display = 'flex';
     const selectedOption = document.querySelector('input[name="rating"]:checked');
     const selectedValue = selectedOption.value;
     userRatingSpan.innerHTML = selectedValue;
