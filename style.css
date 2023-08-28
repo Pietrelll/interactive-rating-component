@@ -42,8 +42,8 @@ p {
   max-width: 340px;
   min-height: 300px;
   border-radius: 20px;
-  padding: 1.5rem;
-  margin: 1rem;
+  padding: 2rem;
+  margin: 0.5rem;
 }
 
 .thankyou-card {
