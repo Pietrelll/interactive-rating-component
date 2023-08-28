@@ -23,7 +23,7 @@ h3 {
 
 h1 {
   font-size: 1.8rem;
-  font-weight: 700;
+  font-weight: 400;
   margin: 1.5rem 0 0.5rem 0;
 }
 
@@ -115,6 +115,7 @@ span {
   border-radius: 30px;
   cursor: pointer;
   transition: all ease-in 0.2s;
+  font-size: 1rem;
 }
 
 .submit-btn:is(:hover, :focus) {
