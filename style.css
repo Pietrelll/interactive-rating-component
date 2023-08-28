@@ -24,7 +24,7 @@ h3 {
 h1 {
   font-size: 1.8rem;
   font-weight: 700;
-  margin: 1rem 0 1rem 0;
+  margin: 1.5rem 0 0.5rem 0;
 }
 
 p {
@@ -41,7 +41,7 @@ p {
   background: radial-gradient(at top, #222933, #171e28);
   max-width: 340px;
   min-height: 300px;
-  border-radius: 20px;
+  border-radius: 30px;
   padding: 2rem;
   margin: 0.5rem;
 }
@@ -113,7 +113,6 @@ span {
   color: hsl(0, 0%, 100%);
   border: none;
   border-radius: 30px;
-  margin-bottom: 1rem;
   cursor: pointer;
   transition: all ease-in 0.2s;
 }
