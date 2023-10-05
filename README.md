@@ -1,5 +1,5 @@
 # interactive rating component
- <h1>Interactive rating component frontend mentor project.</h1> Site live at: https://pietrelll.github.io/interactive-rating-component/
+ <h1>Interactive rating component frontend mentor project.</h1> Site live at: https://piotrplotast.github.io/interactive-rating-component/
 <h2>Technologies used:</h2>
  <h3>- HTML markup</h3>
  <h3>- CSS with grid</h3>
